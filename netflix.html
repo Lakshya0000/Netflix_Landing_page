@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        body {
+            color: white;
+            background: rgb(40,43,51);
+background: linear-gradient(90deg, rgba(40,43,51,0.4150910364145658) 0%, rgba(46,45,66,1) 15%, rgba(29,15,15,1) 51%, rgba(45,33,33,1) 69%, rgba(35,34,26,1) 80%);
+        #logo {
+            position: absolute;
+            left: 100px;
+            width: 10%;
+            padding: 20px 50px;
+        }
+
+        #lang {
+            padding: 5px;
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        #langu {
+            position: absolute;
+            top: 30px;
+            left: 80%;
+
+        }
+
+        #sign {
+            margin-left: 30px;
+            height: 33px;
+            width: 70px;
+            background-color: red;
+            color: white;
+            border: 1px solid white;
+            border-radius: 7px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        #sign:hover {
+            background-color: rgb(154, 41, 41);
+
+        }
+
+        .main {
+            position: absolute;
+            top: 250px;
+            left: 17%;
+            text-align: center;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+
+        .main2 {
+            position: absolute;
+            top: 500px;
+            left: 29%;
+
+        }
+
+        #email {
+            width: 400px;
+            height: 40px;
+            padding-left: 15px;
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.75);
+            border: 1px solid white;
+            color: white;
+        }
+
+        #butn {
+            height: 45px;
+            width: 200px;
+            background-color: red;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: x-large;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+
+        #butn:hover {
+            background-color: rgb(154, 41, 41);
+
+        }
+
+        .main3 {
+            position: absolute;
+            top: 650px;
+            width: 50%;
+            align-items: center;
+            left: 25%;
+            text-align: center;
+        }
+
+        .img {
+            position: relative;
+            left: 20px;
+            top: 100px;
+            width: 19%;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span><img src="logo.png" alt="NETFLIX" id="logo" style="cursor: pointer;"></span>
+        <span id="langu">
+            <select name="lang" id="lang">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <input type="button" value="Sign In" id="sign">
+        </span>
+    </div>
+    <div class="main">
+        <h1 style="font-weight: bolder;">Enjoy big movies, hit series and more from ₹ 149.</h1>
+        <h4 style="font-weight: 100;">Join today. Cancel anytime.</h4>
+        <h4 style="font-weight: 100;">Ready to watch? Enter your email to create or restart your membership.</h4>
+    </div>
+    <div class="main2">
+        <form action="" method="post" id="emailid">
+            <input type="email" name="email" id="email" placeholder="Email Address" required>
+            <input type="submit" value="Get Started >" id="butn">
+        </form>
+    </div>
+    <div class="main3">
+        <hr>
+        <p>&copy; Copyright Netflix 2023</p>
+    </div>
+
+    <span><img src="wednesday.jpeg" alt="" class="img"><img src="walkingdead.jpeg" alt="" class="img">
+        <img src="kantara.jpeg" alt="" class="img">
+        <img src="mili.jpeg" alt="" class="img">
+        <img src="thackeray.jpeg" alt="" class="img"></span>
+
+
+
+
+</body>
+
+</html>
